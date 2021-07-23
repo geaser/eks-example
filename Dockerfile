@@ -1,4 +1,4 @@
-FROM 937138290781.dkr.ecr.us-east-2.amazonaws.com/awstc:eks-ilt-lab3
+FROM 636287442789.dkr.ecr.us-east-2.amazonaws.com/awstc:eks-ilt-lab3
 RUN rm /etc/nginx/conf.d/*
 ADD src/hello.conf /etc/nginx/conf.d/
 ADD src/index.html /usr/share/nginx/html/
